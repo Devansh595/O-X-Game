@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #070F2B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    /* border: 2px solid #DEF9C4; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px;
+   
+}
+.Box{
+    border: 2px solid #DEF9C4;
+    text-align: center; 
+    color: white;
+    padding: 5px;
+    font-size: xx-large;
+}
+.Box1{
+     border-top: none ;
+     border-left: none;
+}
+.Box2{
+     border-top: none ;
+}
+.Box3{
+    border-top: none ;
+    border-right: none;
+}
+.Box4{
+    border-left: none;
+}
+.Box6{
+    border-right: none;
+}
+.Box7{
+    border-bottom: none ;
+    border-left: none;
+}
+.Box8{
+    border-bottom: none ;
+}
+.Box9{
+    border-bottom: none ;
+    border-right: none;
+}
+.btn{
+    padding: 0px;
+    background: none;
+    outline: none;
+    border: none;
+    color:#DEF9C4;
+    font-size: larger;
+    height: 70px;
+    width: 70px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 40px;
+    width: fit-content;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #DEF9C4;
+    color: #070F2B;
+    font-weight: bold;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+}
+h1{
+    color: #DEF9C4;
+    margin-top: 30px;
+}
+#title{
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left: auto;
+}
