@@ -68,7 +68,7 @@ function putValue(box) {
     if (box.textContent === "") {  // Only put value if the box is empty
         user ? (box.textContent = "x", user = false) : (box.textContent = "o", user = true);
         if (checkWin()) {
-            user ? result.textContent = "o win the game" : result.textContent = "x win the game"
+            user ? result.textContent = "o won the game" : result.textContent = "x win the game"
             gameOver = true;
         }
         if (isAllBoxMarked() && !checkWin()) {
